@@ -1,0 +1,41 @@
+
+    .image {
+        position: relative;
+        text-align: center;
+        color: white;
+    }    
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);    
+    }
+
+    section {
+        box-sizing: border-box;
+        border: 1px dotted blue;
+        width: 100%;
+        float: left;
+      }
+      
+      .right {
+        float: right;
+        background: purple;
+        width: 50px;
+        height: 100px
+      }
+      
+      .left {
+        float: left;
+        background: yellow;
+        width: 50px;
+        height: 100px
+      }
+      
+      #roundedcorners {
+        border-radius: 60px;
+        border: 2px solid orange;
+        padding: 30px; 
+        width: 400px;
+        height: 250px;  
+      }
